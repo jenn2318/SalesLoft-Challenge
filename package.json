@@ -2,11 +2,6 @@
   "name": "salesloft",
   "version": "0.1.0",
   "private": true,
-  "proxy": {
-    "/api": {
-      "target": "https://vibrant-noyce-249d90.netlify.com/"
-    }
-  },
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -17,6 +12,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "postbuild": "echo \"  Authorization: Bearer ${SALESLOFT_API_KEY}\" >> build/_headers"
+    "postbuild": "sh apikey.sh && cat _redirects.api.toml >> build/netlify.toml"
   }
 }

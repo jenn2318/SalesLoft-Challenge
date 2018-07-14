@@ -1,0 +1,14 @@
+
+
+## COMMENT: This rule redirects to an external api signing requests with a secret
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+# allow CORS
+[[headers]]
+for = "/api/*"
+[headers.values]
+Access-Control-Allow-Origin = "*"

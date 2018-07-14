@@ -4,6 +4,13 @@ import './App.css';
 
 class App extends Component {
   render() {
+      fetch('https://vibrant-noyce-249d90.netlify.com/api/v2/users.json').then(function(response) {
+          console.log('resposne', response)
+          return response.blob();
+      }).catch(function(err) {
+          console.log('err', err)
+      });
+
     return (
       <div className="App">
         <header className="App-header">
