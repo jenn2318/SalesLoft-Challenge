@@ -1,0 +1,4 @@
+## A path:
+/api/*
+  # Headers for that path:
+  Authorization: Bearer ${SALESLOFT_API_KEY}

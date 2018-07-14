@@ -2,6 +2,11 @@
   "name": "salesloft",
   "version": "0.1.0",
   "private": true,
+  "proxy": {
+    "/api": {
+      "target": "https://vibrant-noyce-249d90.netlify.com/"
+    }
+  },
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
