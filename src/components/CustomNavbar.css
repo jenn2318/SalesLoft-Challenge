@@ -1,0 +1,35 @@
+nav.navbar, navbar-default {
+    background-color: dodgerblue !important;
+}
+
+
+.navbar-default {
+    background-image: none;
+    border: none;
+    border-radius: 0;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: navy;
+}
+
+.navbar-default .navbar-brand {
+    border-color: black;
+}
+
+navbar-default .navbar-toggle {
+    border-color: orange;
+}
+
+navbar-default .nvbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default  .navbar-toggle: focus, .navbar-default .navbar-touch {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: orange;
+}
