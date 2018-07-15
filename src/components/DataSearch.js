@@ -100,7 +100,7 @@ handleDuplicate() {
                             <table key={index}>
                                 <thead>
                                 <tr>
-                                    <th>character</th>
+                                    <th>Character</th>
                                     <th>Count</th>
                                 </tr>
                                 </thead>
