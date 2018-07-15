@@ -4,7 +4,7 @@ import './DataSearch.css';
 import axios from "axios/index";
 import stringSimilarity from 'string-similarity'
 
-//Set the config to access token
+//Set the config to access local host
 const config = {
     headers : {
         'Access-Control-Allow-Origin': 'http://localhost:3000'
