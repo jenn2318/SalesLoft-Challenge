@@ -44,7 +44,9 @@ export default class Home extends Component {
                         {/*<Button bsStyle="primary">Enter</Button>*/}
                     {/*</Link>*/}
                 </Jumbotron>
-                <Button onClick ={this.handleClick}> Get People </Button>
+                <div>
+                <Button className="button-move" onClick ={this.handleClick}> Get People </Button>
+                </div>
                 <div>
                     {this.state.people.map((person, index) => (
                         <div>
