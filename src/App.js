@@ -5,7 +5,7 @@ import Home from './components/Home';
 import DataSearch from './components/DataSearch';
 import './App.css';
 import Navbar from './components/CustomNavbar';
-import './components/CustomNavbar.css';
+//import './Home.css';
 
 
 
