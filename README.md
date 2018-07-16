@@ -13,4 +13,4 @@ This application will deliver people data listing from the SalesLoft API. Moreov
 *String-Similarity npm package
 
 ## Future Additions
-Moving forward I would like to add more styling to the page. Although functionality was the highest priority when putting this application together at this time.
+More styling would have been practical for this app. Although, functionality was the highest priority when putting this application together at this time.
