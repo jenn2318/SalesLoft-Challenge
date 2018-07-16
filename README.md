@@ -20,4 +20,4 @@ On the search page users can click on the Frquency Count Button to show the occu
 ![data search page](public/assets/images/search_page.jpeg)
 
 ## Future Additions
-More styling would have been practical for this app. Although, functionality was the highest priority when putting this application together at this time.
+I would've likedto add more style refactoring to the css code. Although, functionality was the highest priority when putting this application together at this time.
