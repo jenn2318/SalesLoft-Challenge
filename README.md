@@ -14,3 +14,7 @@ This application will deliver people data listing from the SalesLoft API. Moreov
 
 ## Future Additions
 More styling would have been practical for this app. Although, functionality was the highest priority when putting this application together at this time.
+
+![home page](public/assets/images/home.jpeg)
+
+![data search page](public/assets/images/search_page.jpeg)
