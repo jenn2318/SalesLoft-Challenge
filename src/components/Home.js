@@ -40,12 +40,9 @@ export default class Home extends Component {
             <Grid>
                 <Jumbotron>
                     <h2>SalesLoft People Data Finder</h2>
-                    {/*<Link to="/search">*/}
-                        {/*<Button bsStyle="primary">Enter</Button>*/}
-                    {/*</Link>*/}
                 </Jumbotron>
                 <div>
-                <Button className="button-move" onClick ={this.handleClick}> Get People </Button>
+                    <Button onClick ={this.handleClick}> Get People </Button>
                 </div>
                 <div>
                     {this.state.people.map((person, index) => (
