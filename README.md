@@ -17,5 +17,5 @@ More styling would have been practical for this app. Although, functionality was
 ### Users can click the Get People button to show a list of People Data
 ![home page](public/assets/images/home.jpeg)
 
-### On the search page users can click on the Frquency Count Button to show the occurrence of unique characters and the possible instance of a duplicate if it exists.
+### On the search page users can click on the Frquency Count Button to show the occurrence of unique characters in emails. Also the Duplicates Button will show if a possible instance of a duplicate email exists.
 ![data search page](public/assets/images/search_page.jpeg)
