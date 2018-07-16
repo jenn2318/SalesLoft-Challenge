@@ -5,7 +5,6 @@ This application will deliver people data listing from the SalesLoft API. Moreov
 
 ## Tech Stack Used
 *React
-*Node.js
 *JavaScript
 *Axios
 *React-Bootstrap
