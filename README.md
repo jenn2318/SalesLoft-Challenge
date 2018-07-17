@@ -22,4 +22,4 @@ On the search page users can click on the Frquency Count Button to show the occu
 ![data search page](public/assets/images/search_page.jpeg)
 
 ## Future Additions
-I would've liked to add more style refactoring to the css code. Although, functionality was the highest priority when putting this application together at this time. The information does show on the DOM when the buttons are clicked, however I wanted to exercise special caution in not showing that information here for safety of the names and emails given within the data accessed.
+I wanted to add more style refactoring to the css code. Although, functionality was the highest priority when putting this application together at this time. The information does show on the DOM when the buttons are clicked, however I wanted to exercise special caution in not showing that information here for safety of the names and emails given within the data accessed.
