@@ -26,7 +26,7 @@ navbar-default .nvbar-toggle .icon-bar {
     background-color: white;
 }
 
-.navbar-default  .navbar-toggle: focus, .navbar-default .navbar-touch {
+.navbar-default  .navbar-toggle:focus, .navbar-default .navbar-touch {
     background-color: transparent;
 }
 
